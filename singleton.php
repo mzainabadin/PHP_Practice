@@ -33,6 +33,8 @@ class SingleClass
     }
 
 }
+
+
 $mySingle1 = SingleClass::getSingleton();   // one object made
 $mySingle2 = SingleClass::getSingleton();   // reference to first object returned
 $mySingle3 = SingleClass::getSingleton();   // reference to first object returned
